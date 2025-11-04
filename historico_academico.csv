@@ -1,0 +1,22 @@
+id_aluno,nome_aluno,periodo_curso,id_disciplina,semestre_letivo,data_evento,tipo_evento,presenca,nota
+alu_101,Ana Silva,3,CS101,2024.2,2024-09-20,prova,1,6.5
+alu_101,Ana Silva,3,CS101,2024.2,2024-10-25,aula,0,
+alu_101,Ana Silva,3,CS101,2024.2,2024-11-01,aula,0,
+alu_101,Ana Silva,3,CS101,2024.2,2024-11-08,aula,0,
+alu_101,Ana Silva,3,CS101,2024.2,2024-12-15,prova,1,5.0
+alu_101,Ana Silva,3,MA202,2024.2,2024-09-25,prova,1,8.0
+alu_101,Ana Silva,3,MA202,2024.2,2024-12-20,prova,1,7.5
+alu_101,Ana Silva,3,EN303,2024.2,2024-09-30,prova,1,9.0
+alu_101,Ana Silva,3,EN303,2024.2,2024-12-22,prova,1,8.5
+alu_101,Ana Silva,2,CS101,2024.1,2024-05-10,prova,1,8.6
+alu_101,Ana Silva,2,MA202,2024.1,2024-05-15,prova,1,8.8
+alu_101,Ana Silva,2,EN303,2024.1,2024-05-20,prova,1,9.2
+alu_102,João Santos,3,CS101,2024.2,2024-09-20,prova,1,7.0
+alu_102,João Santos,3,CS101,2024.2,2024-12-15,prova,1,7.2
+alu_102,João Santos,3,MA202,2024.2,2024-09-25,prova,1,6.5
+alu_102,João Santos,3,MA202,2024.2,2024-12-20,prova,1,6.8
+alu_102,João Santos,3,EN303,2024.2,2024-09-30,prova,1,7.8
+alu_102,João Santos,3,EN303,2024.2,2024-12-22,prova,1,8.0
+alu_102,João Santos,3,CS101,2024.2,2024-10-25,aula,1,
+alu_102,João Santos,3,CS101,2024.2,2024-11-01,aula,1,
+alu_102,João Santos,3,CS101,2024.2,2024-11-08,aula,1,
