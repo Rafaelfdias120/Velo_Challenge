@@ -30,14 +30,14 @@ class CoordenadorAnalise(Agent):
     - Monta o JSON final
     """
     
-    def __init__(self, caminho_dataset: str):
+    def agents(self, caminho_dataset: str):
         """
         Inicializa o coordenador.
         
         Args:
             caminho_dataset: Caminho para o arquivo CSV com dados dos alunos
         """
-        super().__init__("Coordenador de Análise")
+        super().agents("Coordenador de Análise")
         self.caminho_dataset = caminho_dataset
         self.df = None
         self._carregar_dataset()

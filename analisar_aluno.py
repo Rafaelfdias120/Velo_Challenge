@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-#!Script principal: analisar_aluno.py
+Script principal: analisar_aluno.py
 
-#!Este é o ponto de entrada do sistema VeloEdu Challenge.
-#!Ele recebe um ID de aluno e um arquivo CSV com dados acadêmicos,
-#!e retorna uma análise completa em formato JSON.
+Este é o ponto de entrada do sistema VeloEdu Challenge.
+Ele recebe um ID de aluno e um arquivo CSV com dados acadêmicos,
+e retorna uma análise completa em formato JSON.
 
 #!Uso:
-   #! python analisar_aluno.py --arquivo historico_academico.csv --id alu_101
+   python analisar_aluno.py --arquivo historico_academico.csv --id alu_101
 """
 
 import argparse

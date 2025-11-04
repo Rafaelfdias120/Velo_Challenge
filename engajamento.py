@@ -20,8 +20,8 @@ class AnalisadorEngajamento(Agent):
     - Tendências de desengajamento
     """
     
-    def __init__(self):
-        super().__init__("Analisador de Engajamento")
+    def agents(self):
+        super().agents("Analisador de Engajamento")
     
     def analisar(self, dados: Dict[str, Any]) -> AgentResponse:
         """

@@ -21,8 +21,8 @@ class AnalisadorDesempenho(Agent):
     - Desempenho abaixo da média
     """
     
-    def __init__(self):
-        super().__init__("Analisador de Desempenho")
+    def agents(self):
+        super().agents("Analisador de Desempenho")
     
     def analisar(self, dados: Dict[str, Any]) -> AgentResponse:
         """

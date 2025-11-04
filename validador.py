@@ -20,8 +20,8 @@ class ValidadorHipoteses(Agent):
     - Confirma ou refina a hipótese
     """
     
-    def __init__(self):
-        super().__init__("Validador de Hipóteses")
+    def agents(self):
+        super().agents("Validador de Hipóteses")
     
     def analisar(self, dados: Dict[str, Any]) -> AgentResponse:
         """

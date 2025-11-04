@@ -20,8 +20,8 @@ class AgenteDiagnostico(Agent):
     - Prepara o diagnóstico para validação
     """
     
-    def __init__(self):
-        super().__init__("Agente de Diagnóstico")
+    def agents(self):
+        super().agents("Agente de Diagnóstico")
     
     def analisar(self, dados: Dict[str, Any]) -> AgentResponse:
         """
