@@ -19,7 +19,7 @@ from pathlib import Path
 # Adiciona o diretório src ao path para importar os módulos
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
-from agents import CoordenadorAnalise
+from __init__ import CoordenadorAnalise
 
 def main():
     """
